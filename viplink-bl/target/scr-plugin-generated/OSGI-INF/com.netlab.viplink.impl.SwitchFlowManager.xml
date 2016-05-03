@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="com.netlab.viplink.impl.SwitchFlowManager" activate="activate" deactivate="deactivate">
+        <implementation class="com.netlab.viplink.impl.SwitchFlowManager"/>
+        <service servicefactory="false">
+            <provide interface="com.netlab.viplink.api.SwitchFlowService"/>
+            <provide interface="com.hp.of.ctl.pkt.SequencedPacketListener"/>
+        </service>
+        <property name="service.pid" value="com.netlab.viplink.impl.SwitchFlowManager"/>
+        <reference name="controller" interface="com.hp.of.ctl.ControllerService" cardinality="1..1" policy="dynamic" bind="bindController" unbind="unbindController"/>
+        <reference name="auditLogService" interface="com.hp.sdn.adm.auditlog.AuditLogService" cardinality="1..1" policy="dynamic" bind="bindAuditLogService" unbind="unbindAuditLogService"/>
+    </scr:component>
+</components>

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1462224632406
+Build-Jdk: 1.7.0_91
+Built-By: xin
+Bundle-Description: VIPLink Flow Modifier - user interface module
+Bundle-ManifestVersion: 2
+Bundle-Name: viplink-ui
+Bundle-SymbolicName: com.netlab.viplink.viplink-ui
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: com.hp.sdn.rs.misc;version="[2.6,3)",com.hp.sdn.ui.misc;
+ version="[2.6,3)",com.hp.util.rs,com.hp.util.rs.auth,com.sun.jersey.api
+ .core;version="[1.17,2)",com.sun.jersey.server.impl.container.servlet,c
+ om.sun.jersey.spi.container.servlet,javax.ws.rs;version="[1.1,2)",javax
+ .ws.rs.core;version="[1.1,2)"
+Service-Component: OSGI-INF/com.netlab.viplink.ui.UIExtension.xml
+Tool: Bnd-1.50.0
+Web-ContextPath: sdn/ui/VIP
+Webapp-Context: sdn/ui/VIP

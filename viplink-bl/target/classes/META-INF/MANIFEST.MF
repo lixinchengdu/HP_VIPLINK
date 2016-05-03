@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1462224630062
+Build-Jdk: 1.7.0_91
+Built-By: xin
+Bundle-Description: VIPLink Flow Modifier - service implementation modul
+ e
+Bundle-ManifestVersion: 2
+Bundle-Name: viplink-bl
+Bundle-SymbolicName: com.netlab.viplink.viplink-bl
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: com.hp.api,com.hp.of.ctl,com.hp.of.ctl.pkt,com.hp.of.ctl
+ .prio,com.hp.of.lib,com.hp.of.lib.dt,com.hp.of.lib.instr,com.hp.of.lib.
+ match,com.hp.of.lib.msg,com.hp.sdn.adm.auditlog;version="[2.6,3)",com.h
+ p.sdn.auditlog;version="[2.6,3)",com.hp.util,com.hp.util.ip,com.hp.util
+ .pkt,com.netlab.viplink.api;version="[1.0,2)",com.netlab.viplink.model;
+ version="[1.0,2)",org.slf4j;version="[1.7,2)"
+Service-Component: OSGI-INF/com.netlab.viplink.impl.SwitchFlowManager.xm
+ l
+Tool: Bnd-1.50.0

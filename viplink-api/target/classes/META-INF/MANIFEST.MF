@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1462224628874
+Build-Jdk: 1.7.0_91
+Built-By: xin
+Bundle-Description: VIPLink Flow Modifier - interface definitions module
+Bundle-ManifestVersion: 2
+Bundle-Name: viplink-api
+Bundle-SymbolicName: com.netlab.viplink.viplink-api
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.netlab.viplink.api;uses:="com.hp.api,com.hp.util.ip,
+ com.hp.of.lib.dt,com.netlab.viplink.model,com.hp.of.lib";version="1.0.0
+ .SNAPSHOT"
+Import-Package: com.hp.api,com.hp.of.lib,com.hp.of.lib.dt,com.hp.util.ip
+ ,com.netlab.viplink.model;version="[1.0,2)"
+Tool: Bnd-1.50.0

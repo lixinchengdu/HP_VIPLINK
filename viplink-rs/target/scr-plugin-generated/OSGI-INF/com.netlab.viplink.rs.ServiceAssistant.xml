@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="com.netlab.viplink.rs.ServiceAssistant">
+        <implementation class="com.netlab.viplink.rs.ServiceAssistant"/>
+        <property name="service.pid" value="com.netlab.viplink.rs.ServiceAssistant"/>
+        <reference name="SwitchFlowService" interface="com.netlab.viplink.api.SwitchFlowService" cardinality="0..n" policy="dynamic" bind="bindSwitchFlowService" unbind="unbindSwitchFlowService"/>
+    </scr:component>
+</components>

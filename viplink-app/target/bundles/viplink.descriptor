@@ -1,0 +1,5 @@
+id=com.netlab.viplink
+name=VIPLink Flow Modifier
+version=1.0.0.SNAPSHOT
+vendor=netlab
+description=Application for adding/removing viplinks

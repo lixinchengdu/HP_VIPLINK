@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1462224628003
+Build-Jdk: 1.7.0_91
+Built-By: xin
+Bundle-Description: VIPLink Flow Modifier - domain model module
+Bundle-ManifestVersion: 2
+Bundle-Name: viplink-model
+Bundle-SymbolicName: com.netlab.viplink.viplink-model
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.netlab.viplink.model;uses:="com.hp.util.ip,com.hp.of
+ .lib.dt,com.hp.sdn,com.hp.util.filter";version="1.0.0.SNAPSHOT"
+Import-Package: com.hp.of.lib.dt,com.hp.sdn;version="[2.6,3)",com.hp.uti
+ l.filter,com.hp.util.ip
+Tool: Bnd-1.50.0

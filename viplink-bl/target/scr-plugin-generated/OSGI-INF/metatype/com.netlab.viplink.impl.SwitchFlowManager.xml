@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.netlab.viplink.impl.SwitchFlowManager" name="%com.netlab.viplink.impl.SwitchFlowManager.name" description="%com.netlab.viplink.impl.SwitchFlowManager.description"/>
+    <Designate pid="com.netlab.viplink.impl.SwitchFlowManager">
+        <Object ocdref="com.netlab.viplink.impl.SwitchFlowManager"/>
+    </Designate>
+</metatype:MetaData>
